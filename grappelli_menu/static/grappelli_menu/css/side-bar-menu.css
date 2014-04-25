@@ -58,10 +58,8 @@
 .side-bar-menu li.has-dropdown , .side-bar-menu li.has-dropdown:hover ,.side-bar-menu li.active.has-dropdown{
     background-attachment: scroll;
     background-clip: border-box;
-    background-image: url("../images/arrow-filter.png");
     background-origin: padding-box;
     background-position: 95% center;
-    background-repeat: no-repeat;
     background-size: auto auto;
 }
 

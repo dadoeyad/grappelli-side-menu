@@ -6,11 +6,9 @@
     {% block blockbots %}<meta name="robots" content="NONE,NOARCHIVE" />{% endblock %}
     <!-- STYLESHEETS -->
     {% block stylesheets %}
-        <!-- <link href="{% static "css/foundation.min.css" %}" rel="stylesheet" type="text/css" media="screen" /> -->
         <link href="{% static "grappelli/jquery/ui/css/custom-theme/jquery-ui-1.10.3.custom.min.css" %}" rel="stylesheet" type="text/css" media="screen" />
         <link href="{% static "grappelli/stylesheets/screen.css" %}" rel="stylesheet" type="text/css" media="screen" />
-        <link href="{% static "css/side-bar-menu.css" %}" rel="stylesheet" type="text/css" media="screen" />
-        <link href="{% static "css/fontello.css" %}" rel="stylesheet" type="text/css" media="screen" />
+        <link href="{% static "grappelli_menu/css/side-bar-menu.css" %}" rel="stylesheet" type="text/css" media="screen" />
         {% if LANGUAGE_BIDI %}
             <link href="{% static "grappelli/stylesheets/mueller/grid/output-rtl.css" %}" rel="stylesheet" type="text/css" media="screen" />
             <link href="{% block stylesheet_rtl %}{% static "grappelli/stylesheets/rtl.css" %}{% endblock %}" rel="stylesheet" type="text/css" media="screen" />
