@@ -5,14 +5,10 @@ grappelli-side-menu
 .. image:: https://badge.fury.io/py/grappelli-side-menu.png
     :target: https://badge.fury.io/py/grappelli-side-menu
 
-.. image:: https://travis-ci.org/dadoeyad/grappelli-side-menu.png?branch=master
-    :target: https://travis-ci.org/dadoeyad/grappelli-side-menu
-
-.. image:: https://coveralls.io/repos/dadoeyad/grappelli-side-menu/badge.png?branch=master
-    :target: https://coveralls.io/r/dadoeyad/grappelli-side-menu?branch=master
 
 Side menu for Grappelli, the Django admin Interface
 
+.. image:: ./grappelli-side-menu.jpg
 
 Quickstart
 ----------
