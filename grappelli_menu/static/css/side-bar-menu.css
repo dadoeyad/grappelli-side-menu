@@ -1,0 +1,73 @@
+#main-menu{
+    width:17% ;
+    background:#333333;
+    position: relative;
+    display: inline-block;
+    clear: both;
+    vertical-align: top;
+    top: 64px;
+}
+
+.side-bar-menu ul {
+    list-style-type:none;
+    margin:0px;
+    width:100%
+}
+
+.side-bar-menu ul  li {
+    width:100%;
+    text-align:left;
+    min-height:40px;
+    border-top: 1px solid #575757;
+    box-shadow: 0 -1px 0 #000000;
+    padding:5px 15px;
+    color:#fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.side-bar-menu ul  li a{
+    color:#fff;
+    padding:1% 0% 1% 2%;
+    vertical-align: baseline;
+}
+
+.side-bar-menu ul  li.active {
+    background:#008CBA;
+}
+
+.side-bar-menu ul  li:hover {
+    background:#979797;
+}
+
+.side-bar-menu ul.dropdown {
+    display:none;
+    background:#333333;
+    width: 100%;
+    position:absolute;
+    left: 100%;
+    z-index:1000;
+    margin-top:-22px;
+}
+
+.side-bar-menu li.has-dropdown:hover > ul {
+    display:block
+}
+
+.side-bar-menu li.has-dropdown , .side-bar-menu li.has-dropdown:hover ,.side-bar-menu li.active.has-dropdown{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/arrow-filter.png");
+    background-origin: padding-box;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+#grp-content{
+    display: inline-block;
+    float: none;
+    width: 80%;
+    top: 60px;
+}
