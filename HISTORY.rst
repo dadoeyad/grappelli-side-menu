@@ -3,6 +3,12 @@
 History
 -------
 
+0.1.4 (2016-17-10)
+++++++++++++++++++
+
+* Compatibility with 1.9
+* Cleanup
+* Cursor pointer for menu items
 
 0.1.3 (2014-28-04)
 ++++++++++++++++++
