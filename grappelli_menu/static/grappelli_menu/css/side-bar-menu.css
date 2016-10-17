@@ -61,6 +61,7 @@
     background-origin: padding-box;
     background-position: 95% center;
     background-size: auto auto;
+    cursor: pointer;
 }
 
 #grp-content{
