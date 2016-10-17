@@ -1,8 +1,6 @@
 from django import template
 from django.utils.text import capfirst
-from django.db.models import get_models
-from django.utils.safestring import mark_safe
-from django.contrib.admin import ModelAdmin
+from django.urls import NoReverseMatch
 from django.core.urlresolvers import reverse
 from django.utils import six
 from django.contrib import admin
@@ -15,7 +13,6 @@ def admin_apps(context):
     request = context['request']
     user = request.user
     app_dict = {}
-    admin_class = ModelAdmin
     for model, model_admin in admin.site._registry.items():
         app_label = model._meta.app_label
         has_module_perms = user.has_module_perms(app_label)
